@@ -18,3 +18,6 @@
 *.odt binary
 *.ods binary
 *.docx binary
+
+# Preserve third-party license bytes, including original line endings.
+apple/release-notices/** -text
