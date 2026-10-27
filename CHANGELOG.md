@@ -16,6 +16,8 @@ The release run heads these entries with the version and opens a fresh
 
 ## Unreleased
 
+- Keep nested XLS chart caches out of worksheet cells (OmniParser fork).
+
 ## v7.5.2 - 2026-10-10
 
 ### Text documents and presentations
