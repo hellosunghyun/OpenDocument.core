@@ -1,5 +1,10 @@
 # OpenDocument.core
 
+> OmniParser maintenance fork: the `v7.5.2-omni.1` tag fixes nested XLS chart
+> caches overwriting worksheet cells. The fork release artifact supports iOS
+> and iOS Simulator only; it is not an upstream release. See
+> [fork build and license notes](apple/FORK_RELEASE.md).
+
 ![build status](https://github.com/opendocument-app/OpenDocument.core/actions/workflows/build_test.yml/badge.svg)
 
 A C++ library that reads documents and renders them to HTML. It is the engine

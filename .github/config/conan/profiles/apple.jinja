@@ -18,11 +18,11 @@ os.version={{os_version}}
 {% endif %}arch={{arch}}
 build_type=Release
 compiler=apple-clang
-compiler.version=17
+compiler.version=21
 compiler.cppstd=23
 compiler.libcxx=libc++
 
 [conf]
 {# `objcpp` is the one the bindings themselves are compiled with. #}
 tools.build:compiler_executables={'c': 'clang', 'cpp': 'clang++', 'objc': 'clang', 'objcpp': 'clang++'}
-tools.cmake.cmaketoolchain:extra_variables={'CMAKE_CXX_COMPILER_LAUNCHER': 'ccache', 'CMAKE_C_COMPILER_LAUNCHER': 'ccache', 'CMAKE_OBJCXX_COMPILER_LAUNCHER': 'ccache'}
+tools.build:jobs=4

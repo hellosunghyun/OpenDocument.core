@@ -95,7 +95,7 @@ def build(profile: str, conan: str, build_profile: str) -> None:
     version = [
         f"-DGIT_HEAD_SHA1={release}",
         "-DGIT_IS_DIRTY=false",
-        f"-DODR_APPLE_BUNDLE_VERSION={release.lstrip('v')}",
+        f"-DODR_APPLE_BUNDLE_VERSION={release.lstrip('v').split('-', 1)[0]}",
     ] if release else []
 
     run(["cmake", "-B", cmake_dir, "-S", REPO_ROOT,
@@ -112,7 +112,7 @@ def build(profile: str, conan: str, build_profile: str) -> None:
          "-DODR_PYTHON=OFF",
          "-DODR_WITH_HTTP_SERVER=ON"])
     run(["cmake", "--build", cmake_dir, "--target", "odr_apple",
-         "--parallel", str(os.cpu_count() or 1)])
+         "--parallel", str(min(4, os.cpu_count() or 1))])
 
     framework = framework_dir(build_dir)
     binary = binary_in(framework)

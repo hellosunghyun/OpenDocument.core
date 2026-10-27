@@ -1,0 +1,90 @@
+[
+  {
+    "reference": "pugixml/1.15#979e88f4fafbfe3585d2c0510a071cc7",
+    "packageID": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "packageRevision": "e0f6da52bb302d145688cc6fc4a575da",
+    "license": "MIT",
+    "notices": "pugixml-1.15",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "cryptopp/8.9.0#7a51e0038756b21bc3a6b82d681d5906",
+    "packageID": "d4359aaf4bf959fbc76b318c69ceb3ee2be45f55",
+    "packageRevision": "95e1ef5e50bc07c02de1b4efbdcc90f1",
+    "license": "BSL-1.0",
+    "notices": "cryptopp-8.9.0",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "fmt/11.2.0#15c2efeeecd75ba2fb9dafbec8dfa4cc",
+    "packageID": "c1d67bdbafcba622df9834d641e83441a4b51e52",
+    "packageRevision": "51e33a3474c0f204fbae38720927970b",
+    "license": "MIT",
+    "notices": "fmt-11.2.0",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "md4c/0.5.2#3d7106721e458f9f799b87d4d50d02e0",
+    "packageID": "75cafb484f894a0d28a4eb6a27515cf8e51103d5",
+    "packageRevision": "562e6ab5ccbf065b0b29df34d2ed107b",
+    "license": "MIT",
+    "notices": "md4c-0.5.2",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "miniz/3.1.1#ae48ea4c4ee773386b496b9722e3b66a",
+    "packageID": "e6d97a811a0d28cf768f32c79a5cd05c885466a6",
+    "packageRevision": "a3e8461170b9f6a815f34a2f43f2b884",
+    "license": "MIT",
+    "notices": "miniz-3.1.1",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "nlohmann_json/3.12.0#2d634ab0ec8d9f56353e5ccef6d6612c",
+    "packageID": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "packageRevision": "2ea4b814fc9da53f7cdf5b7d68052688",
+    "license": "MIT",
+    "notices": "nlohmann_json-3.12.0",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "openjpeg/2.5.4#372fbc2b4348d45ab0c0a62a8475dc2f",
+    "packageID": "e6d97a811a0d28cf768f32c79a5cd05c885466a6",
+    "packageRevision": "fbb39055c111eed4ce6ec15573b84469",
+    "license": "BSD-2-Clause",
+    "notices": "openjpeg-2.5.4",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "uchardet/0.0.8#6ab25e452021fcdb560f4e37f4a27bc1",
+    "packageID": "bb00a4441ea5ec9736fd7829f8fdc7206591b853",
+    "packageRevision": "9276e371079c9b411c842f6abf77dca9",
+    "license": "MPL-1.1",
+    "notices": "uchardet-0.0.8",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "utfcpp/4.0.9#b5eb56fe6b829b6f3eb8da167c4f41b2",
+    "packageID": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "packageRevision": "880f2f857e7bb617ec8bc7d79e753955",
+    "license": "BSL-1.0",
+    "notices": "utfcpp-4.0.9",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "cpp-httplib/0.47.0#add6673ff352c26898ed2650453e706e",
+    "packageID": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "packageRevision": "d2f6ea7100a4188776d177e135e35a2c",
+    "license": "MIT",
+    "notices": "cpp-httplib-0.47.0",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  },
+  {
+    "reference": "gtest/1.14.0#f8f0757a574a8dd747d16af62d6eb1b7",
+    "packageID": "758cd3b2066235b7ab943f83356ce0bb82181095",
+    "packageRevision": "656db7c4ffb70d45be6b4bd42fe367c3",
+    "license": "BSD-3-Clause",
+    "notices": "gtest-1.14.0",
+    "role": "Conan host requirement; not a symbol-level linkage audit"
+  }
+]

@@ -24,8 +24,8 @@ let binary: Target = ProcessInfo.processInfo.environment["ODR_XCFRAMEWORK"]
     ?? Target.binaryTarget(
         name: "OdrCoreObjC",
         url:
-            "https://github.com/opendocument-app/OpenDocument.core/releases/download/v7.5.2/OdrCoreObjC.xcframework.zip",
-        checksum: "0aaa650872e66ddbffa969df3571186ed7f05b87487ac15c381f7f3b8a16cd5a"
+            "https://github.com/hellosunghyun/OpenDocument.core/releases/download/v7.5.2-omni.1/OdrCoreObjC.xcframework.zip",
+        checksum: "c12eb737d85f01fb99404ee92734246e6882e2a7e881b023ee05284225a369ed"
     )
 
 let package = Package(
@@ -34,7 +34,6 @@ let package = Package(
     // profiles pin the same values.
     platforms: [
         .iOS(.v15),
-        .macOS(.v12),
     ],
     products: [
         .library(name: "OdrCore", targets: ["OdrCore"])

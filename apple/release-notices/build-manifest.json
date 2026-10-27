@@ -1,0 +1,34 @@
+{
+  "release": "v7.5.2-omni.1",
+  "upstreamRevision": "77e2a0a6e4b33c33a5aee64551fcd0d7493c9101",
+  "archiveSHA256": "c12eb737d85f01fb99404ee92734246e6882e2a7e881b023ee05284225a369ed",
+  "archiveBytes": 9003370,
+  "platforms": [
+    {
+      "BinaryPath": "OdrCoreObjC.framework/OdrCoreObjC",
+      "DebugSymbolsPath": "dSYMs",
+      "LibraryIdentifier": "ios-arm64_x86_64-simulator",
+      "LibraryPath": "OdrCoreObjC.framework",
+      "SupportedArchitectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "SupportedPlatform": "ios",
+      "SupportedPlatformVariant": "simulator"
+    },
+    {
+      "BinaryPath": "OdrCoreObjC.framework/OdrCoreObjC",
+      "DebugSymbolsPath": "dSYMs",
+      "LibraryIdentifier": "ios-arm64",
+      "LibraryPath": "OdrCoreObjC.framework",
+      "SupportedArchitectures": [
+        "arm64"
+      ],
+      "SupportedPlatform": "ios"
+    }
+  ],
+  "consumerMinimumIOS": "27.0",
+  "bundleVersion": "7.5.2",
+  "gitHeadOverride": "v7.5.2-omni.1",
+  "scope": "iOS arm64 and iOS Simulator arm64/x86_64 only"
+}
